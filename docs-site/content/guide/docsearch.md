@@ -441,9 +441,9 @@ Add the Following DocSearch.JS Snippet to all your Documentation Pages:
     typesenseCollectionName: 'docs', // Should match the collection name you mention in the docsearch scraper config.js
     typesenseServerConfig: {
       nodes: [{
-          host: 'localhost', // For Typesense Cloud use xxx.a1.typesense.net
-          port: '8108',      // For Typesense Cloud use 443
-          protocol: 'http'   // For Typesense Cloud use https
+        host: 'localhost', // For Typesense Cloud use xxx.a1.typesense.net
+        port: '8108',      // For Typesense Cloud use 443
+        protocol: 'http'   // For Typesense Cloud use https
       }],
       apiKey: '<SEARCH_API_KEY>', // Use API Key with only Search permissions
     },
@@ -482,9 +482,9 @@ Add the Following DocSearch.JS Snippet to all your Documentation Pages:
     typesenseCollectionName: 'docs', // Should match the collection name you mention in the docsearch scraper config.js
     typesenseServerConfig: {
       nodes: [{
-          host: 'localhost', // For Typesense Cloud use xxx.a1.typesense.net
-          port: '8108',      // For Typesense Cloud use 443
-          protocol: 'http'   // For Typesense Cloud use https
+        host: 'localhost', // For Typesense Cloud use xxx.a1.typesense.net
+        port: '8108',      // For Typesense Cloud use 443
+        protocol: 'http'   // For Typesense Cloud use https
       }],
       apiKey: '<SEARCH_API_KEY>', // Use API Key with only Search permissions
     },
